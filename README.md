@@ -1,5 +1,8 @@
 # Qwen-0.5B-Reasoning-GRPO
 # Mini-R1: Inducing Reasoning in 0.5B Models via GRPO
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/ab80a9f2-ed8c-4081-8041-15b1dfd633b7" />
+
+
 
 **Can a 500M parameter model actually "think"?** This project explores the lower bounds of emergent reasoning by applying **Group Relative Policy Optimization (GRPO)** to Qwen-0.5B. Instead of traditional SFT, I use a zero-critic RL loop to force the model to develop Chain-of-Thought (CoT) capabilities on a minimal compute budget.
 
